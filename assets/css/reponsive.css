@@ -1,0 +1,562 @@
+@media(max-width:500px) {
+    #ManufactureMultiBrand {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 35px;
+    }
+
+    .WorkerList {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 17px;
+    }
+
+    .WorkerList .list img {
+        border-radius: 13px;
+    }
+
+    .DealerLogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+    }
+
+    .DealerLogo .list {
+        border-radius: 7px;
+        padding: 10px 15px;
+    }
+
+    .DealerLogo .list img {
+        width: 100%;
+    }
+
+    .DealerLogo .list:nth-child(1) img {
+        max-height: unset;
+    }
+
+    .DealerLogo .list:nth-child(2) img {
+        max-height: unset;
+    }
+
+    .DealerLogo .list:nth-child(3) img {
+        max-height: 34px;
+    }
+
+    .DealerLogo .list:nth-child(4) img {
+        max-height: unset;
+        width: 43%;
+    }
+
+    .DealerLogo .list:nth-child(5) img {
+        max-height: unset;
+        width: 70%;
+    }
+
+    .DealerLogo .list:nth-child(6) img {
+        max-height: unset;
+    }
+
+    .floatLine {
+        display: unset;
+    }
+
+    .ChooseOne {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 80px;
+        padding: 60px 0px 0px;
+    }
+
+    .ChooseOne .list {
+        padding: 24px 24px 20px;
+        border-radius: 8px;
+    }
+
+    .ChooseOne .list .pointMap {
+        position: absolute;
+        top: -44px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 42px;
+    }
+
+    .ChooseOne .list .image {
+        padding: 0px 0px 20px;
+    }
+
+    .ChooseOne .list .image img {
+        display: block;
+        width: 100%;
+    }
+
+    .ChooseOne .list .details {
+        grid-gap: 5px;
+    }
+
+    .ChooseOne .list .details span {
+        font-size: 17px;
+    }
+
+    .ChooseOne .list .details span.head {
+        font-size: 18px;
+    }
+
+    .ChooseOne .list .buttn a {
+        background: #CFA050;
+        padding: 8px 30px;
+        font-size: 18px;
+        border-radius: 55px;
+    }
+
+    #LargeExhibition {
+        padding: 15px 0px 40px;
+    }
+    
+    #RecognitionEvents {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 35px;
+    }
+    
+    #Recommend {
+        margin: 0px 15px !important;
+        border-radius: 3px;
+    }
+
+    .REvent {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 25px 0px;
+        width: 71%;
+        margin: 0px auto;
+        grid-gap: 24px;
+    }
+
+    .REvent .list {
+        margin: 0px;
+    }
+
+    .REvent .list figure {
+        margin: 0px;
+    }
+
+    .REvent .list figure img {
+        width: 100%;
+    }
+
+    .REvent .list:nth-child(1) figure img {
+        height: 70px;
+        width: auto;
+    }
+
+    .REvent .list:nth-child(2) figure img {
+        height: 70px;
+        width: auto;
+    }
+
+    .REvent .list:nth-child(3) figure img {
+        height: 71px;
+        width: auto;
+    }
+
+    .REvent .list:nth-child(4) figure img {
+        height: 38px;
+        width: auto;
+    }
+
+    .REvent .list:nth-child(5) figure img {
+        height: 125px;
+    }
+    
+    .SeenMedia {
+        display: flex;
+        padding: 25px 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .SeenMedia .list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 29.33%;
+    }
+    
+    .SeenMedia .list:nth-child(1) {
+        order: 1;
+    }
+    
+    .SeenMedia .list:nth-child(2) {
+        order: 2;
+    }
+    
+    .SeenMedia .list:nth-child(3) {
+        order: 3;
+    }
+    
+    .SeenMedia .list:nth-child(4) {
+        order: 7;
+    }
+    
+    .SeenMedia .list:nth-child(5) {
+        order: 4;
+    }
+    
+    .SeenMedia .list:nth-child(6) {
+        order: 5;
+    }
+    
+    .SeenMedia .list:nth-child(7) {
+        order: 6;
+    }
+    
+    .SeenMedia .list:nth-child(8) {
+        order: 8;
+    }
+    
+    .SeenMedia .list:nth-child(9) {
+        order: 9;
+    }
+    
+    .SeenMedia .list:nth-child(10) {
+        order: 10;
+    }
+    
+    .SeenMedia .list:nth-child(1),
+    .SeenMedia .list:nth-child(2),
+    .SeenMedia .list:nth-child(3),
+    .SeenMedia .list:nth-child(5) {
+        width: 25%;
+        margin: 0px 0px 15px;
+    }
+    
+    .SeenMedia .list figure {
+    }
+    
+    .SeenMedia .list img {
+        max-height: 50px;
+    }
+    
+    .SeenMedia .list img.juice {
+        max-height: 90px;
+    }
+    
+    .SeenMedia .list img.designspeak {
+        max-height: 75px;
+    }
+    
+    .SeenMedia .list img.houzz {
+        max-height: 54px;
+    }
+    
+    .ProblemFace {
+        display: flex;
+        grid-template-columns: unset;
+        padding: 35px 0px 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .ProblemFace .list {
+        width: 50%;
+    }
+    
+    .ProblemFace .list:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    
+    .ProblemFace .list .image {
+        margin: 0px 0px 10px;
+    }
+    
+    .ProblemFace .list .image img {
+        display: block;
+        width: 77%;
+    }
+    
+    .ProblemFace .list .txt {
+        font-size: 16px;
+    }
+    
+    #NotYourIssues {
+        padding: 30px 0px 40px;
+        border-radius: 30px;
+    }
+    
+    #WeeklySkill {
+        padding: 120px 0px 0px;
+    }
+    
+    .AdvantageMobile {
+        margin: 0px calc(var(--bs-gutter-x) * -.5);
+    }
+    
+    #DonewithBrand {
+        position: relative;
+        z-index: 10;
+        padding: 30px 0px 25px;
+        margin: 60px 15px !important;
+    }
+    
+    .BrandDone {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        row-gap: 10px;
+        padding: 25px 5px 0px;
+    }
+    
+    .BrandDone .list img {
+        max-height: unset;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .BrandDone .list.AW_Root_Beer img {
+        width: 78%;
+    }
+    
+    .BrandDone .list.Adidas img {
+        width: 78%;
+    }
+    
+    .BrandDone .list.IJM img {
+        width: 69%;
+    }
+    
+    .BrandDone .list.JKR img {
+        width: 78%;
+    }
+    
+    .BrandDone .list.McDonalds img {
+        width: 58%;
+    }
+    
+    .BrandDone .list.Starbucks img {
+        width: 69%;
+    }
+    
+    .BrandDone .list.Chanel img {
+        width: 77%;
+    }
+    
+    .BrandDone .list.Putien img {
+        width: 54%;
+    }
+    
+    #SurfaceSifu {
+        margin-top: -95px;
+        padding: 70px 0px 40px;
+    }
+    
+    .excellentMaster img {
+        bottom: -25px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 50%;
+    }
+    
+    #ultimate-video-51 .ultv-aspect-ratio-16_9 .ultv-video__outer-wrap,
+    #ultimate-video-52 .ultv-aspect-ratio-16_9 .ultv-video__outer-wrap,
+    #ultimate-video-53 .ultv-aspect-ratio-16_9 .ultv-video__outer-wrap,
+    #ultimate-video-54 .ultv-aspect-ratio-16_9 .ultv-video__outer-wrap,
+    #ultimate-video-55 .ultv-aspect-ratio-16_9 .ultv-video__outer-wrap {
+        border-radius: 15px;
+        border: 3px solid #FFF;
+    }
+    
+    #BrandEffect {
+        position: relative;
+        padding: 35px 0px 275px;
+    }
+    
+    #BrandEffect .logo {
+        height: 45px;
+    }
+    
+    #BrandEffect .logo.cebos {
+        height: 60px;
+    }
+    
+    #BrandEffect .logo.loggia {
+        height: 20px;
+    }
+    
+    #OtherDecoDesign {
+        padding: 0px 0px 80px;
+    }
+    
+    .contractCTA {
+        position: relative;
+        padding: 0px 20px 20px;
+        border-radius: 0px;
+        width: 100%;
+        margin: -135px auto 60px;
+        flex-direction: column;
+        box-shadow: unset;
+        background: linear-gradient(264deg, rgb(19 19 19) 36.99%, rgb(255 255 255 / 92%) 73.91%), url(../images/Background-CTA-Mobile.png), black 50% / cover no-repeat;
+        background-position: -210px 0px;
+    }
+    
+    .contractCTA .left {
+        width: 100%;
+    }
+    
+    .contractCTA .left img {
+        display: block;
+        width: 100%;
+    }
+    
+    .contractCTA .left .logo {
+    display: none;
+}
+    
+    .contractCTA .left .logo img {
+        height: 55px;
+        width: auto;
+        margin: 0px;
+    }
+    
+    .contractCTA .left .paintTong {
+    margin: -125px -16px 0px;
+    }
+    
+    .contractCTA .left .paintTong img {
+        position: relative;
+        bottom: unset;
+        left: unset;
+        width: 100%;
+    }
+    
+    .contractCTA .right {
+        width: 100%;
+        margin: 0px 0px -55px;
+    }
+    
+    .otherDesign {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 18px;
+        row-gap: 20px;
+        padding: 25px 0px 0px;
+    }
+    
+    .otherDesign .list .image img {
+        border-radius: 14px;
+    }
+    
+    .otherDesign .list .txt {
+        font-size: 15px;
+        margin: 10px 0px 0px;
+    }
+    
+    #Certificate {
+        padding: 0px 0px;
+    }
+    
+    #Certificate .layer {
+        padding: 55px 20px;
+        margin-top: -40px;
+    }
+    
+    img.certify {
+        width: 82%;
+        margin-top: -50px;
+    }
+    
+    #LargestFactory {
+        padding: 40px 0px;
+    }
+    
+    .CompanyFactory {
+        padding: 26px 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .CompanyFactory .list:not(:last-child) {
+        margin: 0px 0px 20px;
+    }
+    
+    .CompanyFactory .list:nth-child(1),
+    .CompanyFactory .list:nth-child(4) {
+        width: 100%;
+    }
+    
+    .CompanyFactory .list:nth-child(2),
+    .CompanyFactory .list:nth-child(3) {
+        width: 47.5%;
+    }
+    
+    footer {
+        padding: 30px 0px 15px;
+    }
+    
+    footer .logo {
+        height: 76px;
+        margin: 0px auto;
+    }
+    
+    .contactInfo {
+        color: white;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .contactInfo .left {
+        width: 100%;
+    }
+    
+    .contactInfo .right {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    
+    .contactInfo .title {
+        font-size: 20px;
+        margin: 0px 0px 15px;
+    }
+    
+    .contactInfo .address {
+        font-size: 17px;
+        margin-right: 0px;
+    }
+    
+    .contactInfo .phoneNumber {
+        padding: 20px 0px 15px;
+    }
+    
+    .contactInfo .phoneNumber .choose {
+        padding: 2px 0px;
+    }
+    
+    .contactInfo .phoneNumber .choose a {
+        font-size: 21px;
+    }
+
+    .contactInfo .email {
+        font-size: 18px;
+    }
+    
+    .contactInfo .social {
+        margin-top: 20px;
+    }
+    
+    .contactInfo .social .icon {
+        margin-right: 18px;
+    }
+    
+    .contactInfo table tr td {
+        padding: 4px 0px;
+    }
+    
+    .contactInfo table tr td:nth-child(1) {
+        font-size: 16px;
+    }
+    
+    .contactInfo table tr td:nth-child(2) {
+        font-size: 16px;
+    }
+}

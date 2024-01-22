@@ -1,0 +1,141 @@
+/* CountDownWidget */
+#HomeCountDown {
+    height: 177px;
+}
+
+.CountDownWidget {
+    text-align: center;
+    padding: 25px 0px 0px;
+    width: 88%;
+}
+
+.CountDownWidget .title {
+    display: block;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0px;
+    padding: 9px 0px;
+    background: #2B2B2B;
+    color: white;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.CountDownWidget .title .nextEvents {
+    padding: 0px 0px 0px;
+    display: inline-block;
+}
+
+.CountDownWidget .eventTime {
+    padding: 30px 20px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* 		box-shadow: 0 0px 20px 0 rgba(16,24,40,.09); */
+    border-radius: 18px;
+}
+
+.CountDownWidget .eventTime .list {
+    padding: 0px 5px;
+    width: 76px;
+    position: relative;
+}
+
+.CountDownWidget .eventTime .list .count {
+    font-size: 33px;
+    line-height: 38px;
+    background: #393939;
+    -webkit-background: linear-gradient(#393939, #181818);
+    -moz-background: linear-gradient(#393939, #181818);
+    background: linear-gradient(#393939, #181818);
+    color: #fff;
+    padding: 5px !important;
+    border-radius: 8px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.CountDownWidget .eventTime .list .count span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.CountDownWidget .eventTime .list .text {
+    text-transform: uppercase;
+    color: #d2cae5;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+@media(max-width: 500px) {
+    #HomeCountDown {
+        height: 162px;
+    }
+
+    .CountDownWidget {
+        text-align: center;
+        padding: 25px 0px 20px;
+        width: 100%;
+    }
+
+    .CountDownWidget .title {
+        font-size: 15px;
+        line-height: 1.5rem;
+        letter-spacing: 0px;
+        padding: 10px 0px;
+    }
+
+    .CountDownWidget .title .nextEvents {
+        padding: 0px 0px 0px;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 0px;
+    }
+
+    .CountDownWidget .separate {
+        display: block;
+        margin: 10px auto 20px;
+        padding: 0px;
+        background: grey;
+        width: 60px;
+        height: 1.5px;
+    }
+
+    .CountDownWidget .eventTime {
+        padding: 12px 0px 0px;
+        display: flex;
+    }
+
+    .CountDownWidget .eventTime .list {
+        padding: 0px 4px;
+        width: 19%;
+    }
+
+    .CountDownWidget .eventTime .list:not(:last-child):before {
+        top: 10px;
+        font-size: 24px;
+    }
+
+    .CountDownWidget .eventTime .list .count {
+        font-size: 34px;
+        line-height: 30px;
+        padding: 5px 5px 5px !important;
+    }
+
+    .CountDownWidget .eventTime .list .count span {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 0px 0px 0px;
+    }
+
+    .CountDownWidget .eventTime .list .text {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+}
