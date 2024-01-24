@@ -1,40 +1,40 @@
 // Define an array of upcomingevent (in UTC time)
 const upcomingevent = [
-    { name: "13/01/2024 - 7 PM", date: new Date(Date.UTC(2023, 12, 13, +11, 0, 0)) },
-    { name: "27/01/2024 - 7 PM", date: new Date(Date.UTC(2023, 12, 27, +11, 0, 0)) },
+    { name: "13/01/2024 - 9 AM", date: new Date(Date.UTC(2023, 12, 13, +11, 0, 0)) },
+    { name: "27/01/2024 - 9 AM", date: new Date(Date.UTC(2023, 12, 27, +11, 0, 0)) },
 
-    { name: "3/02/2024 - 7 PM", date: new Date(Date.UTC(2024, 1, 3, +11, 0, 0)) },
-    { name: "24/02/2024 - 7 PM", date: new Date(Date.UTC(2024, 1, 24, +11, 0, 0)) },
+    { name: "3/02/2024 - 9 AM", date: new Date(Date.UTC(2024, 1, 3, +11, 0, 0)) },
+    { name: "24/02/2024 - 9 AM", date: new Date(Date.UTC(2024, 1, 24, +11, 0, 0)) },
 
-    { name: "9/03/2024 - 7 PM", date: new Date(Date.UTC(2024, 2, 9, +11, 0, 0)) },
-    { name: "23/03/2024 - 7 PM", date: new Date(Date.UTC(2024, 2, 23, +11, 0, 0)) },
+    { name: "9/03/2024 - 9 AM", date: new Date(Date.UTC(2024, 2, 9, +11, 0, 0)) },
+    { name: "23/03/2024 - 9 AM", date: new Date(Date.UTC(2024, 2, 23, +11, 0, 0)) },
 
-    { name: "13/04/2024 - 7 PM", date: new Date(Date.UTC(2024, 3, 13, +11, 0, 0)) },
-    { name: "27/04/2024 - 7 PM", date: new Date(Date.UTC(2024, 3, 27, +11, 0, 0)) },
+    { name: "13/04/2024 - 9 AM", date: new Date(Date.UTC(2024, 3, 13, +11, 0, 0)) },
+    { name: "27/04/2024 - 9 AM", date: new Date(Date.UTC(2024, 3, 27, +11, 0, 0)) },
 
-    { name: "11/05/2024 - 7 PM", date: new Date(Date.UTC(2024, 4, 11, +11, 0, 0)) },
-    { name: "25/05/2024 - 7 PM", date: new Date(Date.UTC(2024, 4, 25, +11, 0, 0)) },
+    { name: "11/05/2024 - 9 AM", date: new Date(Date.UTC(2024, 4, 11, +11, 0, 0)) },
+    { name: "25/05/2024 - 9 AM", date: new Date(Date.UTC(2024, 4, 25, +11, 0, 0)) },
 
-    { name: "8/06/2024 - 7 PM", date: new Date(Date.UTC(2024, 5, 8, +11, 0, 0)) },
-    { name: "22/06/2024 - 7 PM", date: new Date(Date.UTC(2024, 5, 22, +11, 0, 0)) },
+    { name: "8/06/2024 - 9 AM", date: new Date(Date.UTC(2024, 5, 8, +11, 0, 0)) },
+    { name: "22/06/2024 - 9 AM", date: new Date(Date.UTC(2024, 5, 22, +11, 0, 0)) },
 
-    { name: "13/07/2024 - 7 PM", date: new Date(Date.UTC(2024, 6, 13, +11, 0, 0)) },
-    { name: "27/07/2024 - 7 PM", date: new Date(Date.UTC(2024, 6, 27, +11, 0, 0)) },
+    { name: "13/07/2024 - 9 AM", date: new Date(Date.UTC(2024, 6, 13, +11, 0, 0)) },
+    { name: "27/07/2024 - 9 AM", date: new Date(Date.UTC(2024, 6, 27, +11, 0, 0)) },
 
-    { name: "10/08/2024 - 7 PM", date: new Date(Date.UTC(2024, 7, 10, +11, 0, 0)) },
-    { name: "24/08/2024 - 7 PM", date: new Date(Date.UTC(2024, 7, 24, +11, 0, 0)) },
+    { name: "10/08/2024 - 9 AM", date: new Date(Date.UTC(2024, 7, 10, +11, 0, 0)) },
+    { name: "24/08/2024 - 9 AM", date: new Date(Date.UTC(2024, 7, 24, +11, 0, 0)) },
 
-    { name: "14/09/2024 - 7 PM", date: new Date(Date.UTC(2024, 8, 14, +11, 0, 0)) },
-    { name: "28/09/2024 - 7 PM", date: new Date(Date.UTC(2024, 8, 28, +11, 0, 0)) },
+    { name: "14/09/2024 - 9 AM", date: new Date(Date.UTC(2024, 8, 14, +11, 0, 0)) },
+    { name: "28/09/2024 - 9 AM", date: new Date(Date.UTC(2024, 8, 28, +11, 0, 0)) },
 
-    { name: "12/10/2024 - 7 PM", date: new Date(Date.UTC(2024, 9, 12, +11, 0, 0)) },
-    { name: "26/10/2024 - 7 PM", date: new Date(Date.UTC(2024, 9, 26, +11, 0, 0)) },
+    { name: "12/10/2024 - 9 AM", date: new Date(Date.UTC(2024, 9, 12, +11, 0, 0)) },
+    { name: "26/10/2024 - 9 AM", date: new Date(Date.UTC(2024, 9, 26, +11, 0, 0)) },
 
-    { name: "9/11/2024 - 7 PM", date: new Date(Date.UTC(2024, 10, 9, +11, 0, 0)) },
-    { name: "23/11/2024 - 7 PM", date: new Date(Date.UTC(2024, 10, 23, +11, 0, 0)) },
+    { name: "9/11/2024 - 9 AM", date: new Date(Date.UTC(2024, 10, 9, +11, 0, 0)) },
+    { name: "23/11/2024 - 9 AM", date: new Date(Date.UTC(2024, 10, 23, +11, 0, 0)) },
 
-    { name: "14/12/2024 - 7 PM", date: new Date(Date.UTC(2024, 11, 14, +11, 0, 0)) },
-    { name: "28/12/2024 - 7 PM", date: new Date(Date.UTC(2024, 11, 28, +11, 0, 0)) },
+    { name: "14/12/2024 - 9 AM", date: new Date(Date.UTC(2024, 11, 14, +11, 0, 0)) },
+    { name: "28/12/2024 - 9 AM", date: new Date(Date.UTC(2024, 11, 28, +11, 0, 0)) },
 ];
 
 // Get the HTML element where the countdown will be displayed

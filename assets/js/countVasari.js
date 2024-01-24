@@ -1,17 +1,17 @@
 // Define an array of vasariEvent (in UTC time)
 const vasariEvent = [
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "13/01/2024", date: new Date(Date.UTC(2023, 12, 13, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "24/02/2024", date: new Date(Date.UTC(2024, 1, 24, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "9/03/2024", date: new Date(Date.UTC(2024, 2, 9, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "13/04/2024", date: new Date(Date.UTC(2024, 3, 13, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "11/05/2024", date: new Date(Date.UTC(2024, 4, 11, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "8/06/2024", date: new Date(Date.UTC(2024, 5, 8, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "13/07/2024", date: new Date(Date.UTC(2024, 6, 13, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "10/08/2024", date: new Date(Date.UTC(2024, 7, 10, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "14/09/2024", date: new Date(Date.UTC(2024, 8, 14, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "12/10/2024", date: new Date(Date.UTC(2024, 9, 12, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "9/11/2024", date: new Date(Date.UTC(2024, 10, 9, -8, 0, 0)) },
-    { name: "Bengkel Vasari", time: "7 PM", upDate: "14/12/2024", date: new Date(Date.UTC(2024, 11, 14, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "13/01/2024", date: new Date(Date.UTC(2023, 12, 13, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "24/02/2024", date: new Date(Date.UTC(2024, 1, 24, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "9/03/2024", date: new Date(Date.UTC(2024, 2, 9, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "13/04/2024", date: new Date(Date.UTC(2024, 3, 13, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "11/05/2024", date: new Date(Date.UTC(2024, 4, 11, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "8/06/2024", date: new Date(Date.UTC(2024, 5, 8, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "13/07/2024", date: new Date(Date.UTC(2024, 6, 13, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "10/08/2024", date: new Date(Date.UTC(2024, 7, 10, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "14/09/2024", date: new Date(Date.UTC(2024, 8, 14, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "12/10/2024", date: new Date(Date.UTC(2024, 9, 12, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "9/11/2024", date: new Date(Date.UTC(2024, 10, 9, -8, 0, 0)) },
+    { name: "Bengkel Vasari", time: "9 AM", upDate: "14/12/2024", date: new Date(Date.UTC(2024, 11, 14, -8, 0, 0)) },
 ];
 
 // Get the HTML element where the countdown will be displayed
