@@ -345,7 +345,7 @@
                 </div>
             </div>
             <div class="row justify-content-md-center">
-                <div class="col-md-8 dmt_90 tmt_90 mmt_35">
+                <div class="col-md-12 dmt_90 tmt_90 mmt_35">
                     <div class="col-inner">
                         <div class="elHeadlineWrapper de-editable" data-title="Paragraph">
                             <div
@@ -353,7 +353,7 @@
                                 Pilihan Kehadiran Bengkel <span class="d-block d-sm-none"></span>Akan Datang…
                             </div>
                         </div>
-                        <?php include'views/chooseCourse.php'?>
+                        <div id="ChooseOne" class="ChooseOne"></div>
                     </div>
                 </div>
             </div>
@@ -1170,8 +1170,9 @@
         integrity="sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="assets/js/countDown.js?<?php echo date("His", filemtime('assets/js/countDown.js')); ?>"></script>
-    <script type="text/javascript" src="assets/js/countVasari.js?<?php echo date("His", filemtime('assets/js/countVasari.js')); ?>"></script>
-    <script type="text/javascript" src="assets/js/countCebos.js?<?php echo date("His", filemtime('assets/js/countCebos.js')); ?>"></script>
+    <!--<script type="text/javascript" src="assets/js/countVasari.js?<?php echo date("His", filemtime('assets/js/countVasari.js')); ?>"></script>-->
+    <!--<script type="text/javascript" src="assets/js/countCebos.js?<?php echo date("His", filemtime('assets/js/countCebos.js')); ?>"></script>-->
+    <script type="text/javascript" src="assets/js/countCombine.js?<?php echo date("His", filemtime('assets/js/countCombine.js')); ?>"></script>
 
     <script>
         $('.modal-toggle').on('click', function (e) {
